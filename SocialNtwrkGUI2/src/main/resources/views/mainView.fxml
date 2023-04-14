@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialntwrkgui.controller.MainController">
+   <children>
+      <TableView fx:id="FriendsTableView" layoutY="2.0" prefHeight="295.0" prefWidth="385.0">
+        <columns>
+          <TableColumn fx:id="firstNameColumn" prefWidth="130.0" text="first_name" />
+          <TableColumn fx:id="secondNameColumn" prefWidth="139.0" text="second_name" />
+            <TableColumn fx:id="dateColumn" prefWidth="114.0" text="date" />
+        </columns>
+      </TableView>
+      <Button fx:id="cereriTrimiseButton" layoutX="418.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleCereriTrimiseButton" prefHeight="36.0" prefWidth="148.0" text="Cereri Prietenie Trimise" />
+      <Button fx:id="cereriPrimiteButton" layoutX="418.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleCereriPrimiteButton" prefHeight="36.0" prefWidth="148.0" text="Cereri Prietenie Primite" />
+      <Button fx:id="SugestiiButton" layoutX="418.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleSugestiiButton" prefHeight="36.0" prefWidth="148.0" text="Sugestii" />
+      <Button fx:id="PrieteniButton" layoutX="418.0" layoutY="113.0" mnemonicParsing="false" onAction="#handlePrieteniButton" prefHeight="36.0" prefWidth="148.0" text="Prieteni" />
+      <Button fx:id="LoginButton" layoutX="418.0" layoutY="25.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="36.0" prefWidth="148.0" text="Login" />
+      <Button fx:id="mesajButton" layoutX="251.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleMesajButton" prefHeight="36.0" prefWidth="98.0" text="Mesaje " />
+      <Button fx:id="addFriendButton" layoutX="132.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleAddFriendButton" prefHeight="36.0" prefWidth="98.0" text="Add Prieten" />
+      <Button fx:id="delFriendButton" layoutX="251.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleDelFriendButton" prefHeight="36.0" prefWidth="98.0" text="Sterge " />
+      <Button fx:id="refuzaButton" layoutX="132.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleRefuzaButton" prefHeight="36.0" prefWidth="98.0" text="Refuza" />
+      <Button fx:id="anuleazaCerereaButton" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleAnuleazaCerereaButton" prefHeight="36.0" prefWidth="98.0" text="Anuleaza cererea" />
+      <Button fx:id="acceptaButton" layoutX="14.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleAcceptaButton" prefHeight="36.0" prefWidth="98.0" text="Accepta" />
+   </children>
+</Pane>
