@@ -1,1 +1,1 @@
-# SocialNetwork_Java
+# SocialNetwork_JavaFX
